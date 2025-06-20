@@ -181,4 +181,49 @@ h1{
     padding: 10px 20px;
 
 }
-
+.booking{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    height: 16vh;
+}
+.booking-item{
+    display: flex;
+    width: 300%;
+    font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.booking-item div{
+    background-color: #2062c5;
+    width: 50%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.booking-item div p{
+    margin: 0px;
+}
+.booking-item image{
+    object-fit: cover;
+    width: 50%;
+}
+.booking-item button{
+    background-color: #2062c5;
+    border: none;
+    color: #fff;
+}
+main .about h1{
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgb(25, 30, 59);
+}
