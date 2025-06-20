@@ -241,7 +241,7 @@ main .about h1{
     min-height: 100%;
     width: 250px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
     border-radius: 20px;
     display: flex;
     align-items: flex-end;
@@ -276,7 +276,7 @@ p span{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    overflow: scroll;
+    overflow-x: scroll;
     width: 100%;
     height: 50vh;
     gap: 20px;
@@ -284,21 +284,25 @@ p span{
 .germany-top-item{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    min-width: 300px;
     gap: 10px;
     border-radius: 20px;
     overflow: hidden;
 }
 .germany-top-image{
-    min-height: 24vh;
+    min-height: 28vh;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .germany-top-description{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .top-review{
     display: flex;
@@ -340,5 +344,10 @@ p span{
 }
 .pricing p{
     margin: 0;
+    font-size: 14px;
+}
+.germany-top-image i{
+    color: #535260;
+    margin: 0 5px;
 }
 
