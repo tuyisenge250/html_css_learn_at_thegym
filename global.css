@@ -137,17 +137,21 @@ h1{
     background-color: #124FAA;
 }
 .about{
-    width: 62%;
+    width: 70%;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .register-info{
     background-color: #191E3B;
     display: flex;
     justify-content: space-between;
     padding: 15px 40px;
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
     display: flex;
+    justify-self: center;
+    align-self: center;
     align-items: center;
     gap: 20px;
 }
@@ -227,3 +231,55 @@ main .about h1{
     line-height: 32px;
     color: rgb(25, 30, 59);
 }
+.acc-section{
+    min-height: 35vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.acc-section div{
+    min-height: 100%;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.acc-section p{
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+.acc-section div:focus{
+    border: 1px solid #2062c5;
+}
+.main-p{
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(25, 30, 59);
+    margin-top: 0px;
+}
+p span{
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(25, 30, 59);
+}
+.germany-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    width: 100%;
+    height: 50vh;
+    width: 300px;
+    gap: 20px;
+}
+.germany-top
