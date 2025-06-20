@@ -485,3 +485,46 @@ color: rgb(25, 30, 59);
     border-radius: 20px;
     overflow: hidden;
 }
+.holiday{
+    display: flex;
+    flex-direction: column;
+}
+.holiday p{
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(25, 30, 59);
+}
+.holiday div{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer ul{
+    padding: 0px;
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #2062c5;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer li{
+    padding: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    align-self: center;
+    margin-bottom: 10px;
+    border-top: 1px solid #AED1F3;
+    padding-top: 20px;
+    }
