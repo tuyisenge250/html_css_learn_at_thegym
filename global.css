@@ -47,6 +47,13 @@ li a{
 li a:hover{
     color: rgb(127, 125, 227);
 }
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .hero-section{
     background-image:radial-gradient(
         rgba(0, 0, 0, 0.256), 
@@ -59,6 +66,7 @@ li a:hover{
     justify-content: center;
     align-items: center;
     color: #fff;
+    width: 100%;
 }
 .hero-info-div{
      display: flex;
@@ -79,6 +87,7 @@ h1{
     justify-content: space-between;
     padding: 20px 40px;
     width: 100%;
+    border-radius: 15px;
 }
 .hero-info > div{
     display: flex;
@@ -93,7 +102,7 @@ h1{
     color: rgb(25, 30, 59);
     border: 1px solid rgb(25, 30, 59, 0.5);
     border-radius: 10px;
-    width: 300px;
+    width: 290px;
 }
 .hero-info > div:focus{
     border: 1px solid rgb(127, 125, 227);
@@ -115,12 +124,59 @@ h1{
     margin: 0px;
 }
 .seek-button{
-    background-color: #124FAA;
+    background-color: #2062c5;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.seek-button:hover{
+    background-color: #124FAA;
+}
+.about{
+    width: 62%;
+    margin-top: 20px;
+}
+.register-info{
+    background-color: #191E3B;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.register-info div{
+    display: flex;
+    gap: 20px;
+}
+.register-info div div{
+    padding: 10px;
+    background-color: #AED1F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.register-info p{
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: rgb(255, 255, 255);
+}
+.register-info button{
+    background-color: #2062c5;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
